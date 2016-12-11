@@ -1,0 +1,42 @@
+{
+  "name": "website-boilerplate",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "lint-sass": "sass-lint 'app/**/*.sass' -v",
+    "lint-js": "eslint .",
+    "test": "npm run -s lint-sass && npm run -s lint-js"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.15.0",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "sass-lint": "^1.9.1"
+  },
+  "description": "Sample website code",
+  "version": "0.0.1",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/controversial/website-boilerplate.git"
+  },
+  "author": "Luke Deen Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/controversial/website-boilerplate/issues"
+  },
+  "homepage": "https://github.com/controversial/website-boilerplate#readme",
+  "sasslintConfig": ".sass-lint.yml"
+}

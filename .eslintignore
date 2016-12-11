@@ -1,0 +1,2 @@
+# node-modules is already ignored by default
+dist/*
